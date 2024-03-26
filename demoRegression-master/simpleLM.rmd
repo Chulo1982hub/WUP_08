@@ -36,3 +36,42 @@ abline(simpAGE)
 summary.lm(simpAGE)
 ```
 
+
+
+The best simple model so far, Lenght~AGE beacuse bears as it is in his age we could see the they live more longer so we can alnalyzes the period of time instead the neck size.
+
+
+```{r}
+simpHEADLEN <- lm(LENGTH~HEADLEN,data=bears)
+plot(LENGTH~HEADLEN,data=bears)
+abline(simpHEADLEN)
+summary.lm(simpHEADLEN)
+```
+
+
+
+```{r}
+simpHEADWTH <- lm(LENGTH~HEADWTH,data=bears)
+plot(LENGTH~HEADWTH,data=bears)
+abline(simpHEADWTH)
+summary.lm(simpHEADWTH)
+```
+
+
+
+```{r}
+simpCHEST <- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(simpCHEST)
+summary.lm(simpCHEST)
+```
+
+
+
+```{r}
+simpWEIGHT <- lm(LENGTH~WEIGHT,data=bears)
+plot(LENGTH~WEIGHT,data=bears)
+abline(simpWEIGHT)
+summary.lm(simpWEIGHT)
+```
+
