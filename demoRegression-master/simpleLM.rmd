@@ -38,7 +38,7 @@ summary.lm(simpAGE)
 
 
 
-The best simple model so far, Lenght~AGE beacuse bears as it is in his age we could see the they live more longer so we can alnalyzes the period of time instead the neck size.
+The best simple model so far, Lenght~NECK is best.
 
 
 ```{r}
