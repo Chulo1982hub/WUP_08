@@ -75,3 +75,14 @@ abline(simpWEIGHT)
 summary.lm(simpWEIGHT)
 ```
 
+The primary question was this one
+Predict LENGTH based on the variables other than LENGHT. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. if we look the table
+
+Best to Worst based on Adjust R-Squared
+
+HEADLEN 0.8434  
+CHEST 0.7869  
+NECK 0.7476  
+WEIGHT 0.7423  
+HEADWTH 0.5321  
+AGE 0.50  
